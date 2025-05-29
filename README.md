@@ -1,7 +1,10 @@
 # Tpf
+
 #This was test for cursor ai all of this code made by AI
+
 ##Telegram Proxy Forwarder
-#A Python script that automatically fetches Telegram proxy addresses and forwards them to a specified Telegram channel.
+
+#A Python script that automatically fetches Telegram proxy addresses and forwards them to a specified Telegram channel
 
 ## Prerequisites
 - Python 3.7 or higher
