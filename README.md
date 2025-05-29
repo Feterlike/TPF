@@ -1,6 +1,6 @@
 # Tpf
 
-#This was test for cursor ai all of this code made by AI
+#This was test for cursor ai all of this code Write by AI
 
 ##Telegram Proxy Forwarder
 
