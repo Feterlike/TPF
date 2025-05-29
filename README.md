@@ -4,7 +4,7 @@
 
 ##Telegram Proxy Forwarder
 
-#A Python script that automatically fetches Telegram proxy addresses and forwards them to a specified Telegram channel
+#A Python script that automatically retrieves Telegram proxies from a given link and forwards them to a specified Telegram channel.
 
 ## Prerequisites
 - Python 3.7 or higher
