@@ -18,10 +18,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-PROXY_URL = "........"
-CHECK_INTERVAL = 30  # seconds
+TELEGRAM_BOT_TOKEN = "?????????????????????????"
+TELEGRAM_CHAT_ID = "????????"
+PROXY_URL = "????????????????????????????"
+CHECK_INTERVAL = 300  # seconds
 
 # Set to store already sent proxies
 sent_proxies = set()
@@ -48,6 +48,8 @@ async def fetch_and_process_proxies():
                 async with session.get(PROXY_URL) as response:
                     if response.status == 200:
                         content = await response.text()
+                        
+                        # Process content directly without base64 decoding
                         proxies = content.strip().split('\n')
                         
                         # Process each proxy
@@ -76,4 +78,4 @@ async def main():
         logger.error(f"Unexpected error: {e}")
 
 if __name__ == "__main__":
-    asyncio.run(main()) 
+    asyncio.run(main())
